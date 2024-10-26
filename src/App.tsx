@@ -9,6 +9,7 @@ import { NestedFormWrapper } from './components/NestedForm/NestedForm.component'
 import { FormProviderExample } from './components/FormProviderExample/FormProviderExample.component';
 import { ExternalUIComponentForm } from './components/ExternalUIComponentForm/ExternalUIComponentForm.component';
 import { AsyncSubmissionForm } from './components/AsyncSubmissionForm/AsyncSubmissionForm.component';
+import Home from './components/Home/Home.component';
 
 const App = () => (
   <div className="dark:bg-slate-700 dark:text-white h-full">
@@ -54,6 +55,7 @@ const App = () => (
       </nav>
       <div className="w-full max-w-2xl mx-auto flex flex-col items-center justify-center">
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/simple-form" element={<SimpleForm />} />
           <Route path="/validation-form" element={<ValidationForm />} />
           <Route
