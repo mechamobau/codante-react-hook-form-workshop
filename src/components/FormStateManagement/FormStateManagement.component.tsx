@@ -4,7 +4,6 @@ type FormStateManagementFormData = {
   name: string;
 };
 
-// 5. Form State Management Example
 export const FormStateManagement = () => {
   const { register, handleSubmit, watch } =
     useForm<FormStateManagementFormData>();

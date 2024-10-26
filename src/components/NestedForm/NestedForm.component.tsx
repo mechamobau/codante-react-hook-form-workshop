@@ -1,6 +1,5 @@
 import { FormProvider, useForm, useFormContext } from 'react-hook-form';
 
-// 7. Nested Forms Example
 export const NestedFormWrapper = () => {
   return (
     <FormProvider {...useForm()}>

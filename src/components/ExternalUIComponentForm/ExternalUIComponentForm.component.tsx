@@ -10,7 +10,6 @@ type Option = {
   value: string;
 };
 
-// 9. External UI Component Form Example
 export const ExternalUIComponentForm = () => {
   const { control, handleSubmit } = useForm<ExternalUIComponentFormData>();
   const onSubmit = (data: ExternalUIComponentFormData) =>
